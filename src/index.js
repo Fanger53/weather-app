@@ -1,10 +1,11 @@
 import './style.scss';
 import Weather from './modules/weather'
 import UI from './modules/UI'
+import defaultCity from './modules/default'
 
 const searchInput = document.getElementById('search-input');
 const searchButon = document.getElementById('search');
-
+console.log(defaultCity);
 
 
 const weather = new Weather('Tunja');

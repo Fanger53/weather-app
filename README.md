@@ -3,7 +3,7 @@
 <p align="center">
   
   <br>
-   TWeather App is an App for To  see How Is The Weather
+   The Weather App is an App for To  see How Is The Weather
 </p>
 
 <p align="center">

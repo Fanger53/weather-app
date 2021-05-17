@@ -8,10 +8,10 @@ const searchButon = document.getElementById('search');
 const weather = new Weather();
 const ui = new UI();
 
-async function fetchWeather() {
+const fetchWeather = async () => {
   const data = await weather.getWeather();
   ui.render(data);
-}
+};
 
 searchButon.addEventListener('click', () => {
   const input = searchInput.value;

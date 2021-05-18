@@ -4,8 +4,8 @@ export default class Weather {
     this.city = city;
   }
 
-  async getWeather() {
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=${this.apiKey}`;
+  getWeather = async () => {
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=${this.apiKey}`;
     const response = await fetch(apiUrl, { mode: 'cors' });
     const data = await response.json();
     return data;

@@ -76,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Weather)\n/* harmony export */ });\nclass Weather {\n  constructor(city) {\n    this.apiKey = '88dd50190cb7c4a2c8e55d61d1341d41';\n    this.city = city;\n  }\n\n  async getWeather() {\n    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=${this.apiKey}`;\n    const response = await fetch(apiUrl, { mode: 'cors' });\n    const data = await response.json();\n    return data;\n  }\n\n  chooseLocation(city) {\n    this.city = city;\n  }\n}\n\n\n//# sourceURL=webpack://weather/./src/modules/weather.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Weather)\n/* harmony export */ });\nclass Weather {\n  constructor(city) {\n    this.apiKey = '88dd50190cb7c4a2c8e55d61d1341d41';\n    this.city = city;\n  }\n\n  getWeather = async () => {\n    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=${this.apiKey}`;\n    const response = await fetch(apiUrl, { mode: 'cors' });\n    const data = await response.json();\n    return data;\n  }\n\n  chooseLocation(city) {\n    this.city = city;\n  }\n}\n\n\n//# sourceURL=webpack://weather/./src/modules/weather.js?");
 
 /***/ })
 

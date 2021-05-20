@@ -5,8 +5,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(130deg, rgba(235, 63, 63, 0.933), rgb(126, 184, 19));
+  height: 100%;
 }
 
 .app {
@@ -31,4 +30,21 @@ body {
 
 p {
   font-size: 25px;
+}
+
+.btn {
+  background-color: rgba(160, 152, 152, 0.514);
+  color: aliceblue;
+}
+
+.warm {
+  background-image: linear-gradient(130deg, rgba(83, 43, 43, 0.933), rgb(126, 184, 19));
+}
+
+.cold {
+  background-image: linear-gradient(90deg, rgb(128, 132, 153), rgb(13, 13, 124));
+}
+
+.hot {
+  background-image: linear-gradient(90deg, rgba(235, 197, 27, 0.87), rgb(175, 63, 11));
 }

@@ -9,7 +9,7 @@
     "scss": "node-sass --watch scss -o css",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "stylelint-scss": "^3.19.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.37.0",
-    "webpack-cli": "^4.7.0"
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

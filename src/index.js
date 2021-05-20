@@ -22,10 +22,8 @@ searchButon.addEventListener('click', () => {
   fetchWeather();
 });
 
-switchButton.addEventListener('click', async () => {
-  const data = await weather.getWeather();
+switchButton.addEventListener('click', () => {
   fetchWeather();
-  ui.changeTemp(data);
 });
 
 document.addEventListener('DOMContentLoaded', fetchWeather);

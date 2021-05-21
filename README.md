@@ -33,7 +33,7 @@ This is an app for to see how is the weather in a specific place, was creates us
 ## 🔴 Live Demo:
 
 
-[Weather app](https://raw.githack.com/Fanger53/weather-app/features/dist/index.html)
+[Weather app](https://fanger53.github.io/weather-app/)
 
 ## 🔧 Built with
 

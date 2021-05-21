@@ -6,7 +6,7 @@ const searchInput = document.getElementById('search-input');
 const searchButon = document.getElementById('search');
 const switchButton = document.getElementById('switch-temperature');
 
-const weather = new Weather();
+const weather = new Weather('barbosa');
 const ui = new UI();
 
 const fetchWeather = async () => {

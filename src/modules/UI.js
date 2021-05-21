@@ -33,13 +33,13 @@ export default class UI {
   changeTempColor(weather) {
     if (`${Math.round(weather.main.temp)}` >= 15 && `${Math.round(weather.main.temp)}` <= 22) {
       this.bodyBg.classList.add('warm');
-      this.bodyBg.classList.remove('cold', 'hot');
+      this.bodyBg.classList.remove('cold', 'hot', 'default');
     } else if (`${Math.round(weather.main.temp)}` <= 15) {
       this.bodyBg.classList.add('cold');
-      this.bodyBg.classList.remove('warm', 'hot');
+      this.bodyBg.classList.remove('warm', 'hot', 'default');
     } else if (`${Math.round(weather.main.temp)}` >= 23) {
       this.bodyBg.classList.add('hot');
-      this.bodyBg.remove.className('cold', 'warm');
+      this.bodyBg.remove.className('cold', 'warm', 'default');
     }
   }
 }

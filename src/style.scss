@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+}
+
+.app {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(24, 23, 23, 0.205);
+  color: aliceblue;
+}
+
+#search-input {
+  background-color: rgba(160, 152, 152, 0.514);
+  color: aliceblue;
+}
+
+#search {
+  width: 100%;
+  background-color: rgba(160, 152, 152, 0.514);
+  color: aliceblue;
+}
+
+p {
+  font-size: 25px;
+}
+
+.btn {
+  background-color: rgba(160, 152, 152, 0.514);
+  color: aliceblue;
+}
+
+.warm {
+  background-image: linear-gradient(130deg, rgba(218, 76, 112, 0.933), rgb(197, 139, 12));
+}
+
+.cold {
+  background-image: linear-gradient(90deg, rgb(128, 132, 153), rgb(13, 13, 124));
+}
+
+.hot {
+  background-image: linear-gradient(90deg, rgba(235, 197, 27, 0.87), rgb(175, 63, 11));
+}
+
+.default {
+  background-image: linear-gradient(90deg, rgba(134, 39, 114, 0.87), rgb(35, 172, 17));
+}
